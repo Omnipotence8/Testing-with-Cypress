@@ -1,9 +1,7 @@
-import { defineConfig } from 'cypress'
+const { defineConfig } = require("cypress");
 
-export default defineConfig({
+module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://ecommerce-playground.lambdatest.io/index.php',
-    specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
