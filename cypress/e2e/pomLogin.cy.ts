@@ -2,8 +2,11 @@ import { LoginPage } from "../pages/loginPage";
 
 const loginPage = new LoginPage()
 
-it('account registration', () => {
-loginPage.navigate();    
+beforeEach(() => {
+loginPage.navigate();
+});
+
+it('account registration', () => {   
 loginPage.enterEmail(loginPage.typeEmail);
 loginPage.enterPassword(loginPage.typePassword);
 loginPage.clickLogin();
