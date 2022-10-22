@@ -27,3 +27,10 @@ https://docs.cypress.io/api/commands/type#Usage
 ![image](https://user-images.githubusercontent.com/45335405/196089979-585a60ab-d030-4caa-b44c-776840484258.png)
 
 ![image](https://user-images.githubusercontent.com/45335405/196090266-28743a32-9573-46f6-9267-ee15861c88b5.png)
+
+### Generate massive amounts of fake (but realistic) data for testing and development.
+https://www.npmjs.com/package/@faker-js/faker
+
+npm install --save-dev @faker-js/faker
+
+![image](https://user-images.githubusercontent.com/45335405/197322941-9ce89e06-b634-424a-abf2-3d331347cc66.png)
