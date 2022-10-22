@@ -2,11 +2,31 @@
 ## Installing Cypress
 Before we can begin writing Cypress tests, we first need to install it. Within your terminal type the following:
 
-npm install cypress --save-dev
+1. Install any IDE, eg: VS Code
+2. Support for JavaScript and TypeScript added to VS Code
+3. Install Node JS & verify: 
+                                                      node -v 
+                                                      npm -v
 
-Now that we have Cypress installed, we can launch it with:
+Project setup step by step: 
+1. Create an empty folder for a new Project
+2. Open the project folder in VS Code
+3. Run commands: 
+               
+               npm init -y
+                  
+               npm install cypress  or npm install cypress --save-dev
+               
+               npm install typescript
+                 
+4. Initialize a new tsconfig.json file using command: 
 
-npx cypress open
+npx tsc --init --types cypress --lib dom,es6
+
+Note:this ensure that types for cypress are accessible by typescript. These types depend on dom & es6, so we pass them as lib option to typescript.
+
+5. Open TestRunner using command: npx cypress open
+
 
 ### Find and fix problems in your JavaScript code
 ESLint statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
