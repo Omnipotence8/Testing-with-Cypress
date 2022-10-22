@@ -34,3 +34,11 @@ https://www.npmjs.com/package/@faker-js/faker
 npm install --save-dev @faker-js/faker
 
 ![image](https://user-images.githubusercontent.com/45335405/197322941-9ce89e06-b634-424a-abf2-3d331347cc66.png)
+
+![image](https://user-images.githubusercontent.com/45335405/197322986-0fa0f999-ac4f-456e-92fb-b64d2ec1d257.png)
+
+![image](https://user-images.githubusercontent.com/45335405/197323298-c0f788b9-32b4-4920-b51c-5906fcc3b50f.png)
+
+![image](https://user-images.githubusercontent.com/45335405/197323317-38c2ee65-6602-41a2-a5b7-e619e3a95d6c.png)
+
+
