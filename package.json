@@ -1,1 +1,4 @@
-{"devDependencies":{"cypress":"^10.9.0","typescript":"^4.8.4"},"scripts":{"cypress:open":"cypress open"},"dependencies":{"ts-node":"^10.9.1"}}
+{
+    "devDependencies":{"cypress":"^10.9.0","typescript":"^4.8.4"},
+    "scripts":{"cypress:open":"cypress open"},
+    "dependencies":{"ts-node":"^10.9.1"}}

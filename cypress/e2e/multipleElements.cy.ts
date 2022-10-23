@@ -1,6 +1,6 @@
 describe('Multiple Elements for Register Account', () => {
     beforeEach(() => {
-        cy.visit(`?route=account/register`);;
+        cy.visit(`?route=account/register`);
     });
     it('navbar', () => {
         const menuLincText =[
