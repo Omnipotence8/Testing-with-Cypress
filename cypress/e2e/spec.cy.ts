@@ -34,8 +34,8 @@ describe('Expect true', () => {
     expect(true).to.equal(true)
   })
 })
-describe('Expect false', () => {
-  it('Does not do much!', () => {
-    expect(true).to.equal(false)
-  })
-})
+// describe('Expect false', () => {
+//   it('Does not do much!', () => {
+//     expect(true).to.equal(false)
+//   })
+// })
