@@ -4,7 +4,8 @@
 "scripts":{
     "cy:open": "cypress open",
     "cy:run": "cypress run ",
-    "cypress:open":"cypress open"
+    "cypress:open":"cypress open",
+    "start": "node index.js"
 },
 "dependencies":{
     "@cypress/github-action":"^4.2.0",
