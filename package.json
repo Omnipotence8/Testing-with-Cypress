@@ -1,4 +1,13 @@
-{
-    "devDependencies":{"cypress":"^10.9.0","typescript":"^4.8.4"},
-    "scripts":{"cypress:open":"cypress open"},
-    "dependencies":{"ts-node":"^10.9.1"}}
+{"devDependencies":{
+    "cypress":"^10.9.0",
+    "typescript":"^4.8.4"},
+"scripts":{
+    "cy:open": "cypress open",
+    "cy:run": "cypress run ",
+    "cypress:open":"cypress open",
+    "start": "node index.js"
+},
+"dependencies":{
+    "@cypress/github-action":"^4.2.0",
+    "ts-node":"^10.9.1"
+    }}
