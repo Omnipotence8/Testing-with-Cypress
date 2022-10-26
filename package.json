@@ -2,7 +2,7 @@
     "cypress":"^10.9.0",
     "typescript":"^4.8.4"},
 "scripts":{
-    "cypress:start": "react-scripts start",
+    "cypress:start": "cypress open",
     "cypress:open":"cypress open"
 },
 "dependencies":{
