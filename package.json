@@ -5,8 +5,14 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run ",
     "cypress:open":"cypress open",
-    "start": "cypress open"
+    "start": "cypress open",
+    "test": "REST, CYPRESS, API"
 },
+"keywords": [
+    "REST",
+    "CYPRESS",
+    "API"
+],
 "dependencies":{
     "@cypress/github-action":"^4.2.0",
     "ts-node":"^10.9.1"
